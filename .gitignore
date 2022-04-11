@@ -1,0 +1,6 @@
+# Compilation outputs
+src/cmake-build-debug
+src/build
+
+# IDE config folder
+.idea

@@ -23,16 +23,20 @@ This repository includes:
 ```CMakeLists
 set(PYTHON_INCLUDE_DIRS ${PYTHON_INCLUDE_DIRS} /home/usr/anaconda3/lib/python3.7/site-packages/numpy/core/include)
 ```
+- If you have installed Numpy in your main Python installation, you should not need to modify the `CMakeLists.txt` file.
+
 ### Compilation
+- To perform a full install you can simply execute `. ./install.sh` assuming that you are on the repository main
+  directory, if that's not the case you can execute manually the following command lines:
 ```Shell
 $ cd ./src/build
 $ cmake ..
 $ make
 ```
-- The python package `TSP.py` it's now builded! Now you can run the Jupyter notebooks from the folder `experiments`.
+- The python package `TSP.so` it's now built! Now you can run the Jupyter notebooks from the folder `experiments`.
 
 ## Usage
-- Python package `TSP.py` example of use.
+- Python package `TSP.so` example of use.
 ```Python
 import sys
 import numpy as np
