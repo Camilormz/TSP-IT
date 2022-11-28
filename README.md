@@ -81,7 +81,7 @@ cmake .. -DNUMPY_INCLUDE_PATH=$(dirname $(python -c 'import numpy as np; print(n
 e/include}
 make
 ```
-- The python package `TSP.py` it's now builded! Now you can run the Jupyter notebooks from the folder `experiments`.
+- The python package `TSP.py` it's now built! Now you can run the Jupyter notebooks from the folder `experiments`.
 
 
 ## References
