@@ -85,7 +85,6 @@ make
 ```
 - The python package `TSP.py` it's now built! Now you can run the Jupyter notebooks from the folder `experiments`.
 
-
 ## References
 [[1](https://arxiv.org/pdf/2110.14122.pdf)]  Gonzalez, M. E., Silva, J. F., Videla, M., & Orchard, M. E. (2021). **Data-Driven Representations for Testing Independence: Modeling, Analysis and Connection with Mutual Information Estimation**. *IEEE Transactions on Signal Processing, 70*, 158-173.
 

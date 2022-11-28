@@ -15,7 +15,7 @@ set(PYTHON_INCLUDE_DIRS ${PYTHON_INCLUDE_DIRS} ${NUMPY_INCLUDE_PATH})
 
 python_add_module(TSP TSP.cpp TSPNode.cpp)
 
-target_include_directories(TSP PUBLIC ${Boost_INCLUDE_DIRS} ${PYTHON_INCLUDE_DIRS})
+target_include_directories(TSP PUBLIC ${Boost_INCLUDE_DIRS} ${PYTHON_INCLUDE_DIRS} Eigen3::Eigen)
 target_link_libraries(TSP ${Boost_LIBRARIES} ${PYTHON_LIBRARIES} Eigen3::Eigen)
 
 if (NOT CMAKE_BUILD_TYPE)
