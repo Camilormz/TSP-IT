@@ -1,5 +1,6 @@
 # TSP-IT
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+mkdir -p ./src/build
 
 An Independence Test based on Data-Driven Tree-Structured Representations.
 
@@ -65,17 +66,18 @@ If you are installing from source, you will need:
 * [NumPy](https://numpy.org/).
 
 ##### Ubuntu:
-```Shell
+```bash
 apt install cmake libeigen3-dev libboost-all-dev
 ```
 
 ##### Arch:
-```Shell
+```bash
 pacman -S cmake eigen boost
 ```
 
 ### Compilation
-```Shell
+```bash
+mkdir -p ./src/build
 cd ./src/build
 cmake .. -DNUMPY_INCLUDE_PATH=$(dirname $(python -c 'import numpy as np; print(np.__file__)'))/cor
 e/include}
