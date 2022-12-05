@@ -1,6 +1,6 @@
 # TSP-IT
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-mkdir -p ./src/build
+
 
 An Independence Test based on Data-Driven Tree-Structured Representations.
 
